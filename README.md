@@ -14,6 +14,14 @@ Bu proje, Docker teknolojisi kullanılarak oluşturulmuş bir dağıtık sistem 
 - **PostgreSQL**: Veritabanı sunucusu
 - **Redis**: Önbellek sunucusu
 
+"http://localhost/api/tasks"
+
+![Görev](screenshots/localhost1.png)
+
+"http://localhost/api/tasks/server-info"
+
+![Görev](screenshots/localhost2.png)
+
 ## Başlatma
 
 Sistemi başlatmak için:
@@ -41,7 +49,7 @@ docker ps
 ```
 Bu komut ile tüm servislerin (nginx, app1, app2, postgres, redis) çalıştığını görebilirsiniz.
 
-![Çalışan Containerlar](screenshots/1.png)
+![Çalışan Containerlar](screenshots/resim_2025-03-06_163935863.png)
 
 ### 3. Yeni Görev Oluşturma
 ```powershell
